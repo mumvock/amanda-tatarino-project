@@ -6,14 +6,16 @@ import { AngularMaterialModule } from '../shared/angular-material.module';
 import { FeaturesComponent } from './features.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ContainerComponent } from './container/container.component';
-import { FooterComponent } from './footer/footer.component';
+import { MoreAboutComponent } from './more-about/more-about.component';
+import { MainComponent } from './main/main.component';
 
 @NgModule({
   declarations: [
     FeaturesComponent,
     NavbarComponent,
     ContainerComponent,
-    FooterComponent
+    MoreAboutComponent,
+    MainComponent
   ],
   imports: [
     CommonModule,

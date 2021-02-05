@@ -1,0 +1,32 @@
+main {
+  align-items: center;
+  display: flex;
+  position: relative;
+
+  &::after {
+    content: '';
+    background: url('./../../../assets/images/amanda-tatarino-background.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: blur(15px) brightness(0.7);
+    bottom: 0;
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: -2;
+  }
+
+  div#particles-js{
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    overflow: hidden;
+    right: 0;
+    top: 0;
+    z-index: -1;
+  }
+}

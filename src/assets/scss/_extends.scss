@@ -1,0 +1,25 @@
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "./variables";
+
+
+.text-container {
+  background-color: $backgroundDarker;
+  padding: 4.5rem;
+  border-radius: 0.25rem;
+
+  @include media-breakpoint-down(md) {
+    padding: 1rem;
+  }
+
+  span {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+
+    @include media-breakpoint-down(md) {
+      font-size: 1rem;
+      line-height: normal;
+    }
+  }
+}

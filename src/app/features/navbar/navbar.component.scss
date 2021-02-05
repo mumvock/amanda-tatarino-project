@@ -1,7 +1,22 @@
-button {
-  margin-right: 1rem;
+@import "./../../../assets/scss/variables";
 
-  &:last-child {
-    margin: 0;
+nav {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1;
+
+  mat-toolbar {
+    background-color: $backgroundDarker;
+    color: $text;
   }
+
+  button {
+    margin-right: 1rem;
+  
+    &:last-child {
+      margin: 0;
+    }
+  }  
 }

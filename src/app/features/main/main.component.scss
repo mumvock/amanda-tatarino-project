@@ -1,0 +1,12 @@
+@import "./../../../assets/scss/extends";
+
+section {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+
+  div.about {
+    @extend .text-container;
+    text-align: justify;
+  }
+}
